@@ -1,0 +1,5 @@
+body,header,footer,section,aside,nav {
+display: block;
+border: 1px solid grey;
+margin: 0;
+padding: 0;
