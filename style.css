@@ -1,5 +1,45 @@
-body,header,footer,section,aside,nav {
-display: block;
-border: 1px solid grey;
-margin: 0;
-padding: 0;
+header
+{text-align: center;
+color: #ffffff;
+
+font-size: 30px;
+font-style: italic;
+padding: 50px;
+background-color:#ff66cc;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+footer {
+  text-align: left;
+  background-color: #ff66cc;
+text-align: center;
+color: #FFFFFF;
+padding: 30px;
+margin-top: 150px;
+}
+aside{
+float: right;
+width: 20%;
+background-color:#ebf5fb;
+font-size: 14px;
+padding: 10px;
+}
+nav{
+  background-color: 000000;
+  font-size: 14px;
+  text-align: left;
+  color: #000000;
+}
+section{
+padding: 30px;
+}
+table,
+td {
+    border: 8px solid #ff66cc;
+}
+
+thead,
+tfoot {
+    background-color: #ff66cc;
+    color: #ffffff;
+}
